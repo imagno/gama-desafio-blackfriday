@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="shortcut icon" href="./assets/icons/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./styles/global.css">
+  <link rel="stylesheet" href="./styles/home.css">
+  
+
+  <title>Black Friday Sale</title>
+</head>
+<body>
+  <header>
+    <h1>Landing page</h1>
+    <p>1º Desafio Hiring Coders #2</p>
+  </header>
+  <main class="body-container main-container">
+    <picture>
+      <source media="(max-width: 1050px)" srcset="./assets/images/blackfriday-logo-309x292.png" type="image/png" />
+      <img src="./assets/images/blackfriday-logo-518x490.png" alt="Logo Black Friday" />
+    </picture>
+
+    <div class="card-container">
+      <div id="content">
+        <h2>Cadastre-se </h2>
+        <form id="form">
+          <label for-id="name" class="sr-only">nome</label>
+          <input type="text" placeholder="nome" id="name" required />
+          <label for-id="email" class="sr-only">email</label>
+          <input type="email" placeholder="email" id="email" required />
+          <input type="submit" value="Cadastrar">
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer class="body-container footer-container">
+    <a href="https://github.com/imagno"target="blank">
+      <img src="./assets/icons/github-logo.ico" alt="perfil github" />
+    </a>
+
+    <a href="https://www.linkedin.com/in/igor-ferreira-84954a17b/" target="blank">
+      <img src="./assets/icons/linkedin-logo.ico" alt="perfil linkedin" />
+    </a>
+
+    <a href="https://twitter.com/icosta2910" target="blank">
+      <img src="./assets/icons/twitter-logo.ico" alt="perfil twitter" />
+    </a>
+  </footer>
+</body>
+<script src="./components/main.js"></script>
+</html>
