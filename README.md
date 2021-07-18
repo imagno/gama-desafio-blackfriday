@@ -27,3 +27,5 @@ Commit | Contém
  ed4bdc0d1bf | styles/
  0fe31390ef4 | components/
 
+
+_**[Hospedagem Netlify](https://60f42b922a071f7e0fd39045--tender-knuth-67dacd.netlify.app/)**_
